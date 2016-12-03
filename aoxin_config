@@ -1,8 +1,7 @@
 [
   {
-    "app_build": 13,
+    "app_build": 29,
     "min_ios_version": 10,
-    "max_ios_version": 11,
     "sync_data": {
       "show_login_phone": 1,
       "login_info": {
