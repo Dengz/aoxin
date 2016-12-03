@@ -1,0 +1,3 @@
+defineClass('AXItemDetailSaleController', {
+    doForward: function() {},
+});
