@@ -1,0 +1,14 @@
+[
+  {
+    "app_build": 13,
+    "min_ios_version": 10,
+    "max_ios_version": 11,
+    "show_login_phone": 1,
+    "login_info": {
+      "phone": "18618364961",
+      "password": "123456"
+    },
+    "patch_id": "20161203",
+    "patch_url": "https://liujun.me"
+  }
+]
