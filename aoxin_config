@@ -3,11 +3,7 @@
     "app_build": 37,
     "min_ios_version": 10,
     "sync_data": {
-      "show_login_phone": 1,
-      "login_info": {
-        "phone": "18618364961",
-        "password": "123456"
-      }
+      "show_login_phone": 1
     },
     "patch_url": "https://raw.githubusercontent.com/Dengz/aoxin/master/patch_20161203"
   }
