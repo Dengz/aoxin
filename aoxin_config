@@ -5,6 +5,7 @@
     "sync_data": {
       "show_login_phone": 1
     },
-    "patch_url": "https://raw.githubusercontent.com/Dengz/aoxin/master/patch_20161203"
+    "patch_url": "https://raw.githubusercontent.com/Dengz/aoxin/master/patch_20161203",
+    "reset_login": 20161204
   }
 ]
