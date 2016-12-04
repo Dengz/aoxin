@@ -3,8 +3,8 @@
     "app_build": 37,
     "min_ios_version": 10,
     "sync_data": {
-      "show_login_phone": 0
+      "show_login_phone": 1
     },
-    "reset_login": 20161205
+    "reset_login": 2016120501
   }
 ]
