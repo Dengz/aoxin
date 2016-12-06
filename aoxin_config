@@ -2,7 +2,10 @@
   {
     "sync_data": {
       "show_login_phone": 0
-    },
-    "reset_login": 1
+    }
+  },
+  {
+    "app_build": 40
+    "reset_login": 2
   }
 ]
