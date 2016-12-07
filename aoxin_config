@@ -1,11 +1,9 @@
 [
   {
+    "app_build": 41,
+    "reset_login": 2,
     "sync_data": {
-      "show_login_phone": 0
+      "show_login_phone": 1
     }
-  },
-  {
-    "app_build": 40,
-    "reset_login": 2
   }
 ]
