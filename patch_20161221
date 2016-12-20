@@ -1,0 +1,18 @@
+require('Crashlytics');
+defineClass('AXItemDetailContentController', {
+    viewWillAppear: function(animated) {
+        self.super().viewWillAppear(animated);
+        var params = self.pageParameters();
+        if (params.valueForKey("item")) {
+            self.itemData().setValuesForKeysWithDictionary(params.valueForKey("item"));
+            self.reloadItemData();
+        }
+
+        if (params.valueForKey("refresh")) {
+            self.reloadItemData();
+        }
+
+        Crashlytics.sharedInstance().setObjectValue_forKey(self.itemData().valueForKey("id"), "template_data_id");
+
+    },
+});
