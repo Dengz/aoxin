@@ -5,5 +5,9 @@
     "sync_data": {
       "show_login_phone": 0
     }
+  },
+  {
+    "app_build": 42,
+    "patch_url": "https://raw.githubusercontent.com/Dengz/aoxin/master/patch_20161221"
   }
 ]
