@@ -16,3 +16,9 @@ defineClass('AXItemDetailContentController', {
 
     },
 });
+
+defineClass('NSString', {
+    charValue: function() {
+        return self.intValue();
+    },
+});
