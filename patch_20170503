@@ -31,7 +31,9 @@ defineClass('AXItemDetailSaleController', {
     doForward: function() {
         if (self.itemData().valueForKey("operation_content").isKindOfClass(NSString.class())) {
             var list = NSMutableArray.new();
-            list.addObject(self.itemData().valueForKey("operation_content"));
+            var item = NSMutableDictionary.new();
+            item.setValue_forKey(self.itemData().valueForKey("operation_content"), "content");
+            list.addObject(item);
             self.itemData().setValue_forKey(list, "operation_content");
         }
         self.ORIGdoForward();
