@@ -21,4 +21,7 @@ defineClass('NSString', {
     charValue: function() {
         return self.intValue();
     },
+    count: function() {
+        return 0;
+    },
 });
