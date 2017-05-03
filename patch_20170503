@@ -26,7 +26,7 @@ defineClass('NSString', {
     },
 });
 
-require('NSString,NSMutableArray');
+require('NSString,NSMutableArray,NSMutableDictionary');
 defineClass('AXItemDetailSaleController', {
     doForward: function() {
         if (self.itemData().valueForKey("operation_content").isKindOfClass(NSString.class())) {
