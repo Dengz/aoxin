@@ -21,9 +21,9 @@ defineClass('NSString', {
     charValue: function() {
         return self.intValue();
     },
-    count: function() {
-        return 0;
-    },
+    //count: function() {
+    //    return 0;
+    //},
 });
 
 require('NSString,NSMutableArray,NSMutableDictionary');
