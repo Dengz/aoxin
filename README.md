@@ -30,3 +30,6 @@ Specific the url of the patch file
 
 Specific the the version of client that should be re-login when first-launched.
 
+## Versions
+
+If clients wants to set different value for specific version, the we shoule make a branch for this version, and change the value at that branch. Clients should only access the matched branch's data.
